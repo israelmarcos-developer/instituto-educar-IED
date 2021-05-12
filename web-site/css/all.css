@@ -1,0 +1,8 @@
+.menu-position{
+  display: flex;
+}
+.whatsapp{
+  background-image: url(../img/img-social/icon-whatsapp.png);
+  height: 5px;
+  width: 5px;
+}

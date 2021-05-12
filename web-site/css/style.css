@@ -676,7 +676,7 @@ header.header.sticky_menu_active {
 
 ul#top_menu {
   float: right;
-  margin: 0 0 0 0;
+  margin-top: -0.40rem;
   font-size: 13px;
   font-size: 0.8125rem;
 }
@@ -793,7 +793,7 @@ ul#top_menu li a.btn_1:hover {
   background-color: rgba(57, 39, 121, 0.8);
 }
 #hero_in.courses:before {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_courses.jpg) center center no-repeat;
+  background: url(../img/img-courses/banner-cursos-mba.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -4338,7 +4338,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 }
 #confirm p {
   font-size: 16px !important;
-  font-size: 16px !important/16pxrem;
+  font-size: 16px !important 16rem;
   margin-bottom: 0;
 }
 
@@ -5034,7 +5034,7 @@ ul.list_3 li:before {
   }
   .fc-header-center .fc-header-title h2 {
     font-size: 16px !important;
-    font-size: 16px !important/16pxrem;
+    font-size: 16px !important/16rem;
   }
 }
 /*============================================================================================*/
@@ -5105,7 +5105,7 @@ ul.list_3 li:before {
 }
 
 .call_section {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_call_section.jpg) center center no-repeat fixed;
+  background: url(../img/img-social/student-paralax.jpg) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
