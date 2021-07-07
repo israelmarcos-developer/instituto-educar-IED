@@ -653,8 +653,8 @@ header.header.sticky {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background: #480048;
-  background: -webkit-linear-gradient(left, #480048, #C04848);
-  background: linear-gradient(to right, #480048, #C04848);
+  background: -webkit-linear-gradient(left, #020c54, #004e99);
+  background: linear-gradient(to right, #002a7a, #01abed);
   padding: 15px 20px;
 }
 @media (max-width: 991px) {
@@ -669,9 +669,9 @@ header.header.sticky_menu_active {
   header.header.sticky_menu_active {
     padding: 15px 15px 0 15px;
     background: #480048;
-    background: -webkit-linear-gradient(left, #480048, #C04848);
-    background: linear-gradient(to right, #480048, #C04848);
-  }
+    background: -webkit-linear-gradient(left, #020c54, #004e99);
+    background: linear-gradient(to right, #002a7a, #01abed);
+    }
 }
 
 ul#top_menu {
@@ -926,7 +926,7 @@ main {
 
 /* Footer */
 footer {
-  background-color: #121921;
+  background: linear-gradient(to right, #000c54, #000c54);
   color: #fbfbfb;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -1056,7 +1056,7 @@ footer.fake-footer {
   -moz-border-radius: 0 3px 3px 0;
   -ms-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
-  background-color: #92278f;
+  background-color: #02abed;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1065,7 +1065,7 @@ footer.fake-footer {
   outline: none;
 }
 #newsletter input[type='submit']:hover {
-  background-color: #392779;
+  background-color: #02abed;
 }
 
 .follow_us {
@@ -1134,6 +1134,11 @@ ul#additional_links li:after {
   position: relative;
   left: 10px;
 }
+ul#additional_links h9 {
+  color: #ffffff;
+}
+
+
 
 /* Wow on scroll event */
 .wow {
@@ -3685,7 +3690,7 @@ section#reviews {
 
 /*-------- 2.5 Login/register/admission--------*/
 #login_bg, #register_bg, #admission_bg {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_login.jpg) center center no-repeat fixed;
+  background: url(../img/img-cadastro/background-cadastro.jpg) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -3695,7 +3700,7 @@ section#reviews {
 }
 
 #register_bg {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_register.jpg) center center no-repeat fixed;
+  background: url(../img/img-cadastro/background-cadastro.jpg) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -3703,7 +3708,7 @@ section#reviews {
 }
 
 #admission_bg {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_admission.jpg) center center no-repeat fixed;
+  background: url(../img/img-cadastro/background-cadastro.jpg) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -3713,9 +3718,8 @@ section#reviews {
 #login figure, #register figure {
   text-align: center;
   margin-bottom: 30px;
-  background: #480048;
-  background: -webkit-linear-gradient(left, #480048, #C04848);
-  background: linear-gradient(to right, #480048, #C04848);
+  background: -webkit-linear-gradient(left, #020c54, #004e99);
+  background: linear-gradient(to right, #002a7a, #01abed);
   margin: -45px -60px 30px -60px;
   padding: 20px 60px 25px 60px;
 }
@@ -5057,8 +5061,7 @@ ul.list_3 li:before {
 }
 
 .box_1 {
-  background-color: #121921;
-  color: #fff;
+  background: -webkit-linear-gradient(left, #3d3d3e, #3d3d3e); color: #fff;
   padding: 45px;
   opacity: 0;
 }
@@ -5105,7 +5108,7 @@ ul.list_3 li:before {
 }
 
 .call_section {
-  background: url(../img/img-social/student-paralax.jpg) center center no-repeat fixed;
+  background: url(../img/img-social/9aef14ef-fb0d-4fe0-84cb-b5deb017a46f.png) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

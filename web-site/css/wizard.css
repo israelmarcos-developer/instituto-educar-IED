@@ -28,8 +28,8 @@
   text-align: center;
   margin-bottom: 0;
   background: #480048;
-  background: -webkit-linear-gradient(left, #480048, #C04848);
-  background: linear-gradient(to right, #480048, #C04848);
+  background: -webkit-linear-gradient(left, #020c54, #004e99);
+  background: linear-gradient(to right, #002a7a, #01abed);
   padding: 20px 60px 25px 60px;
 }
 @media (max-width: 767px) {
@@ -102,6 +102,7 @@ button.backward {
   color: #333;
   background: #e8e8e8;
   padding: 12px 20px 12px 30px;
+  margin-left: -12rem;
 }
 button.backward:before {
   content: "\34";
@@ -164,6 +165,7 @@ button.submit:before {
 #bottom-wizard {
   text-align: center;
   padding-bottom: 30px;
+  margin-left: 12rem;
 }
 
 .ui-widget-header {
