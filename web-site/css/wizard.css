@@ -46,6 +46,7 @@ input#website {
   position: relative;
   background-color: #fff;
   padding: 0 60px 0 60px;
+  height: 65rem;
 }
 @media (max-width: 767px) {
   #wizard_container {
@@ -100,9 +101,13 @@ button.submit {
 
 button.backward {
   color: #333;
-  background: #e8e8e8;
   padding: 12px 20px 12px 30px;
-  margin-left: -12rem;
+  margin-left: -14rem;
+  margin-top: -4rem;
+  float: left;
+  background: #e8e8e8;
+}
+  
 }
 button.backward:before {
   content: "\34";

@@ -14,3 +14,48 @@
 .sess-cred{
   margin-top: 1rem;
 }
+.text-family{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conclu-pag{
+  width: 200px;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.title-conclu{
+  margin-top: 7rem;
+  text-align: center;
+}
+.title-conclu-1{
+  text-align: center;
+  font-size: 9px;
+}
+.button-pag{
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  outline: none;
+  text-align: center;
+  background: #3f9fff;
+  position: relative;
+  font-size: 13px;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+  line-height: 1;
+  padding: 0.9rem;
+
+  margin-left: 10rem;
+}
+
